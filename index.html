@@ -21,6 +21,8 @@
     .app { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line);
            border-radius: 14px; padding: 16px; color: inherit; text-decoration: none; }
     .app:hover { border-color: var(--muted); }
+    .app.off { margin-top: 24px; opacity: 0.55; filter: grayscale(1); }
+    .app.off:hover { border-color: var(--line); }
     .app img { border-radius: 16px; flex: none; }
     .app h2 { font-size: 1.1rem; margin: 0; }
     .app p { margin: 0; color: var(--muted); }
@@ -46,6 +48,14 @@
     <a href="https://dfgonzalez88.github.io/snakeco-legal/es/privacy.html">Privacidad</a> ·
     <a href="https://dfgonzalez88.github.io/snakeco-legal/es/terms.html">Condiciones</a>
   </p>
+
+  <div class="app off">
+    <img src="flashy.png" alt="" width="64" height="64">
+    <div>
+      <h2>Flashy Learning</h2>
+      <p>Temporarily unavailable</p>
+    </div>
+  </div>
 
   <footer>
     <a href="mailto:snakeco@flashylearning.app">snakeco@flashylearning.app</a>
